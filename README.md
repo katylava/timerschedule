@@ -1,6 +1,6 @@
 # TimerSchedule
 
-A CLI app written in Node.js.
+_A CLI app written in Node.js._
 
 Timebox your day without a ton of data entry, and automatically schedule
 customizable pomodoro sessions between other scheduled events.
@@ -10,8 +10,8 @@ it to run the timers for you and give you notifications. The current timer
 description and remaining time is displayed in the tab title as well as the
 terminal window.
 
-_<small>I want to call it PomoPlan, but [I can't][trademark-fever]. Suggestions
-for a better name are appreciated.</small>_
+_I want to call it PomoPlan, but [I can't][trademark-fever]. Suggestions
+for a better name are appreciated._
 
 ### Status
 
@@ -102,7 +102,7 @@ There are 5 types of commands:
 - `run [schedule] for [duration]`
 - `run [schedule] [n] times`
 
-Durations are formatted like "[number] [units]", e.g. "10 minutes", "1 hour",
+Durations are formatted like `[number] [units]`, e.g. "10 minutes", "1 hour",
 "30 seconds"... you get it. Exact times are formatted like
 `[hour]:[minute][am|pm]`, as in the example yaml above.
 
