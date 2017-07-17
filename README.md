@@ -41,15 +41,16 @@ normal day:
   - run 25/5 pomos until 5:00pm
 ```
 
-In order to run it you'll need to pass the schedule name and a start time as
-command line arguments. Ex.:
+In order to run it you'll need to pass the schedule name and an optional start
+time as command line arguments. Ex.:
 
 ```
 > ./app.js "normal day" 9:00am
 ```
 
 If you just want to see the schedule and not run it you can include any value
-as a third argument. It would print something like this:
+as a third argument. In this form the start time is not optional. It would print
+something like this:
 
 ```
 > ./app.js "normal day" 9:00am 1                                                                                                          130  16:47:25   master  ✽2
