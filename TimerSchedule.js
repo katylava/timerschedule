@@ -29,6 +29,10 @@ class TimerSchedule {
     }
 
     schedule(startAt, stopAt, schedule) {
+        if (!startAt) {
+            startAt = moment()
+        }
+
         let time = moment(startAt)
 
         if (stopAt instanceof Map) {
